@@ -7,7 +7,9 @@
   background-size: cover;
   height: 100%;
 }
-
+.pos-logo{
+  margin-left: 65px;
+}
 .color-button {
   background-color: #47d078;
   color: #ffff !important;
@@ -23,19 +25,14 @@
 }
 
 
-
-
-
-
-
-/* footer {
-  background-color: #008458;
-} */
 @media only screen and (max-width: 417px) and (min-width: 360px) {
   .fondo {
     height: 1500px;
     background-image: url("../WEB-movil.png");
     background-repeat: no-repeat;
+  }
+  .pos-logo{
+    margin-left: 134px;
   }
 }
 @media only screen and (max-width: 1024px) {
@@ -44,11 +41,17 @@
     background-image: url("../WEB-movil.png");
     background-repeat: no-repeat;
   }
+  .pos-logo{
+    margin-left: 134px;
+  }
 }
 @media only screen and (max-width: 321px) {
   .fondo {
     height: 270vh;
     background-image: url("../WEB-movil.png");
     background-repeat: no-repeat;
+  }
+  .pos-logo{
+    margin-left: 114px;
   }
 }
