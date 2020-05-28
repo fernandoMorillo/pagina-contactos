@@ -8,25 +8,23 @@
   height: 100%;
 }
 
-.form {
-  background-color: hsla(0, 0%, 100%, 0.85);
-  padding: 10px;
-  margin-top: 20px;
-  border-radius: 5px;
-  box-shadow: 0px 10px 73px -23px rgba(0, 0, 0, 1);
-}
 .color-button {
   background-color: #47d078;
   color: #ffff !important;
   border-radius: 5px !important;
 }
-
-.uk-card-hover:not(.uk-card-default):not(.uk-card-primary):not(.uk-card-secondary):hover{
-  background: #ffff !important;
-  box-shadow: 0 14px 25px rgba(0,0,0,.16) !important;
-  border-radius: 5px !important;
-  opacity: 1.0;
+.color-button:hover{
+  background-color: #008458;
 }
+.uk-card {
+  border-radius: 10px !important;
+  background-color: #ffff !important;
+  opacity: 0.8;
+}
+
+
+
+
 
 
 
@@ -34,17 +32,23 @@
   background-color: #008458;
 } */
 @media only screen and (max-width: 417px) and (min-width: 360px) {
-  .sec_form {
+  .fondo {
     height: 1500px;
-    background-image: url("../pagos_430w.jpg");
+    background-image: url("../WEB-movil.png");
     background-repeat: no-repeat;
   }
 }
-
+@media only screen and (max-width: 1024px) {
+  .fondo {
+    height: 1500px;
+    background-image: url("../WEB-movil.png");
+    background-repeat: no-repeat;
+  }
+}
 @media only screen and (max-width: 321px) {
-  .sec_form {
+  .fondo {
     height: 270vh;
-    background-image: url("../pagos_320w.jpg");
+    background-image: url("../WEB-movil.png");
     background-repeat: no-repeat;
   }
 }
