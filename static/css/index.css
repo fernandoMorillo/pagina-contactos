@@ -3,8 +3,9 @@
 }
 
 .fondo {
-  background-image: url("../fondo.jpg");
+  background-image: url("../conctac.jpeg");
   background-size: cover;
+  background-attachment: fixed;
   height: 100%;
 }
 .pos-logo{
@@ -21,7 +22,11 @@
 .uk-card {
   border-radius: 10px !important;
   background-color: #ffff !important;
-  opacity: 0.8;
+  opacity: 0.99;
+}
+.center-btn{
+  position: relative;
+  left: 50%;
 }
 
 
@@ -29,6 +34,19 @@
   .fondo {
     height: 1500px;
     background-image: url("../WEB-movil.png");
+    background-repeat: no-repeat;
+  }
+  .pos-logo{
+    margin-left: 134px;
+  }
+  .center-btn{
+    left: 1%;
+  }
+}
+@media only screen and (max-width: 1920px) and (min-width: 1024px) {
+  .fondo {
+    height: 1500px;
+    background-image: url("../conctac.jpeg");
     background-repeat: no-repeat;
   }
   .pos-logo{
@@ -53,5 +71,8 @@
   }
   .pos-logo{
     margin-left: 114px;
+  }
+  .center-btn{
+    left: 1%;
   }
 }
