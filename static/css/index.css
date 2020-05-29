@@ -1,7 +1,10 @@
 * {
   font-family: "Arimo", sans-serif;
 }
+body{
+  overflow: hidden;
 
+}
 .fondo {
   background-image: url("../conctac.jpeg");
   background-size: cover;
